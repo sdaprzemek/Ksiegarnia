@@ -1,4 +1,6 @@
-package com.programowanie2.ksiegarnia;
+package com.programowanie2.ksiegarnia.author;
+
+import java.util.Scanner;
 
 public class Author {
 
@@ -11,6 +13,8 @@ public class Author {
         this.name = name;
         this.age = age;
     }
+
+    public Author() {}
 
     public int getId() {
         return id;
@@ -38,10 +42,25 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author{" +
-                "id:" + id +
+        return "id: " + id +
                 ", Imię i nazwisko: " + name + '\'' +
-                ", wiek: " + age +
-                '}';
+                ", wiek: " + age + "\n";
+    }
+
+    public static Author addNewAuthor(int id) {
+        Author newAuthor = new Author();
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Wprowadź Imię i nazwisko nowego autora: \n");
+        String name = in.nextLine();
+        newAuthor.setName(name);
+
+        System.out.println("Wprowadź wiek nowego autora: \n");
+        int age = in.nextInt();
+        newAuthor.setAge(age);
+
+        newAuthor.setId(id++);
+
+        return newAuthor;
     }
 }
