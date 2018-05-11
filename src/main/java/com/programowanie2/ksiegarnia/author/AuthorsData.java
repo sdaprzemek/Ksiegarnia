@@ -1,4 +1,4 @@
-package com.programowanie2.ksiegarnia;
+package com.programowanie2.ksiegarnia.author;
 
 import java.util.List;
 
@@ -22,4 +22,6 @@ public class AuthorsData {
     public void setAuthors(List <Author> authors) {
         this.authors = authors;
     }
+
+
 }

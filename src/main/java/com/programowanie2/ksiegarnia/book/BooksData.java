@@ -1,4 +1,4 @@
-package com.programowanie2.ksiegarnia;
+package com.programowanie2.ksiegarnia.book;
 //singleton
 
 import java.util.List;

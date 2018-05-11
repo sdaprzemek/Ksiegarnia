@@ -14,37 +14,35 @@ public class Author {
         this.age = age;
     }
 
-    public Author() {}
+    Author() {}
 
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    void setId(int id) {
         this.id = id;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 
-    public int getAge() {
+    int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    void setAge(int age) {
         this.age = age;
     }
 
     @Override
     public String toString() {
-        return "id: " + id +
-                ", Imię i nazwisko: " + name + '\'' +
-                ", wiek: " + age + "\n";
+        return "id: " + id + ", Imię i nazwisko " + name + ", Wiek: " + age + "\n";
     }
 
     public static Author addNewAuthor(int id) {
