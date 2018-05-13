@@ -1,6 +1,6 @@
 package com.designpatterns.factory;
 
-public class InvitationSenderFactory {
+class InvitationSenderFactory {
 
     public InvitationSender createInvitsationSender(InvitationSenderType type) {
         if (type.equals(InvitationSenderType.EMAIL)) {

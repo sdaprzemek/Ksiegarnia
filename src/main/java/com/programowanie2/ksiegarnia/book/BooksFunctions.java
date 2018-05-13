@@ -38,7 +38,6 @@ public class BooksFunctions {
         }
     }
 
-
     public List <Book> getAllBooksFromCategoryDesignPatterns(List <Book> books) {
         return books.stream().filter(book -> book.getCategory().equals(CategoriesData.getInstance().getAllCategories().get(1))).collect(Collectors.toList());
     }

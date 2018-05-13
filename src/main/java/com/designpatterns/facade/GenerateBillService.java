@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class GenerateBillService {
+class GenerateBillService {
 
 
     public void generateBill() {

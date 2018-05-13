@@ -1,6 +1,6 @@
 package com.designpatterns.calculator;
 
-public interface CalculatorPolicy {
+interface CalculatorPolicy {
 
     double calculate(double basicSalary);
 }

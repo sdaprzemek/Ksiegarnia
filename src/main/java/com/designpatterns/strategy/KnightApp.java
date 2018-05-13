@@ -2,7 +2,7 @@ package com.designpatterns.strategy;
 
 import java.util.Scanner;
 
-public class KnightApp {
+class KnightApp {
 
     //wzorzec strategia służy do tego żeby zaprojektować w ten sposob program aby w przyszlosci mozna bylo
     //rozbudowywac aplikacje i dodawc kolejne funkcje

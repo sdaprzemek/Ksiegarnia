@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class OrderFacade {
+class OrderFacade {
 
     private SaveOrderService saveOrderService;
 

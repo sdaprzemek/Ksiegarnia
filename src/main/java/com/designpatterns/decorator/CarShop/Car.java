@@ -1,6 +1,6 @@
 package com.designpatterns.decorator.CarShop;
 
-public interface Car {
+interface Car {
 
     void configure();
 

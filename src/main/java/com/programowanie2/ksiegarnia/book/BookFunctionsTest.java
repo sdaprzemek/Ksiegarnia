@@ -1,6 +1,5 @@
 package com.programowanie2.ksiegarnia.book;
-/*
-import com.programowanie2.ksiegarnia.book.Book;
+
 import org.junit.*;
 
 import java.util.ArrayList;
@@ -122,4 +121,3 @@ public class BookFunctionsTest {
 
 
 }
-*/

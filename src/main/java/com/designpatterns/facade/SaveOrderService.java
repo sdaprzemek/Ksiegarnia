@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class SaveOrderService {
+class SaveOrderService {
 
 
     public void saveOrder(Order order){

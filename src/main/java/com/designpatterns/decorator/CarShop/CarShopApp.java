@@ -2,7 +2,7 @@ package com.designpatterns.decorator.CarShop;
 
 import java.util.Scanner;
 
-public class CarShopApp {
+class CarShopApp {
 
     public static void main(String[] args) {
         printMainMenu();

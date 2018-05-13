@@ -73,4 +73,9 @@ public class Book {
 
     }
 
+    public Book(String title, String isbn, int year) {
+        this.title = title;
+        this.isbn = isbn;
+        this.year = year;
+    }
 }

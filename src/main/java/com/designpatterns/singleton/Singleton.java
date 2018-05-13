@@ -6,7 +6,7 @@ package com.designpatterns.singleton;
 
 public class Singleton {
     private static Singleton singleton = null; //warunkiem jest prywatny obiekt tej klasy
-    private Singleton(){}; //prywatny konstuktor
+    private Singleton(){} //prywatny konstuktor
 
     public static Singleton getInstance(){
         if (singleton == null) {
@@ -15,7 +15,6 @@ public class Singleton {
         return singleton;
     }
     public String testSingleton(){
-        String text = "Jestem";
-        return text;
+        return "Jestem";
     }
 }

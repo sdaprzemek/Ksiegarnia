@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class OrderApp {
+class OrderApp {
 
 
     public static void main(String[] args) {

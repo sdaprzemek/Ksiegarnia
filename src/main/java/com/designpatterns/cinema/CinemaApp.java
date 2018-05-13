@@ -2,7 +2,7 @@ package com.designpatterns.cinema;
 
 import java.util.Scanner;
 
-public class CinemaApp {
+class CinemaApp {
 
 
     public static void main(String[] args) {

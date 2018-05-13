@@ -1,6 +1,6 @@
 package com.designpatterns.strategy;
 
-public class Knight {
+class Knight {
 
     private Quest quest;
 

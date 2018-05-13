@@ -1,9 +1,7 @@
 package com.designpatterns.strategy;
 
-public interface Quest {
+interface Quest {
 
-
-    public void perform();
-
+    void perform();
 
 }

@@ -2,7 +2,7 @@ package com.designpatterns.decorator;
 
 import java.util.Scanner;
 
-public class HotDrinkMachine {
+class HotDrinkMachine {
 
     public static void main(String[] args) {
         printMainMenu();

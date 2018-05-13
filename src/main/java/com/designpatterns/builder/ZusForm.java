@@ -16,7 +16,7 @@ public class ZusForm {
 
     private int age;
 
-    public ZusForm(String name, String surname, String city, String street, int streetNumber, boolean female, int age) {
+    private ZusForm(String name, String surname, String city, String street, int streetNumber, boolean female, int age) {
         this.name = name;
         this.surname = surname;
         this.city = city;

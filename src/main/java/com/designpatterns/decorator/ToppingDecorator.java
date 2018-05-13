@@ -2,7 +2,7 @@ package com.designpatterns.decorator;
 
 public class ToppingDecorator implements HotDrink {
 
-    HotDrink hotDrink;
+    private HotDrink hotDrink;
 
     public ToppingDecorator(HotDrink hotDrink) {
         this.hotDrink = hotDrink;

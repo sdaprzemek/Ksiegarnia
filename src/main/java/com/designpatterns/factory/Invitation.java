@@ -1,6 +1,6 @@
 package com.designpatterns.factory;
 
-public class Invitation {
+class Invitation {
 
     //wzorzec ValueObject - tworzy się obiekt bez możliwości modyfikowania ponieważ dane obiektu
     //przekazuje sie przy tworzeniu obiektu i w danej klasie są tylko gettery, a nie ma setterow

@@ -2,7 +2,7 @@ package com.designpatterns.calculator;
 
 import java.util.Scanner;
 
-public class SalaryApp {
+class SalaryApp {
 
     public static void main(String[] args) {
         System.out.println("Hello, please choose country: ");

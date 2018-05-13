@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class Order {
+class Order {
 
     private String orderNumber;
 

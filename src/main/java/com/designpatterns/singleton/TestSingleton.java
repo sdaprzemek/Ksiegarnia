@@ -2,7 +2,7 @@ package com.designpatterns.singleton;
 
 import com.designpatterns.singleton.Singleton;
 
-public class TestSingleton {
+class TestSingleton {
     public static void main(String[] args) {
         //Singleton singleton = new Singleton(); <- nie można utworzyc nowego biektu klasy bo jest private
         Singleton singleton = Singleton.getInstance();

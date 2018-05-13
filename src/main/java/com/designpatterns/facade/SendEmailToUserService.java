@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class SendEmailToUserService {
+class SendEmailToUserService {
 
 
     public void sendEmailToUser() {

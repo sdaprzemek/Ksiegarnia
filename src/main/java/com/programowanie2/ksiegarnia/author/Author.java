@@ -1,7 +1,5 @@
 package com.programowanie2.ksiegarnia.author;
 
-import java.util.Scanner;
-
 public class Author {
 
     private int id;
@@ -24,7 +22,7 @@ public class Author {
         this.id = id;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
@@ -32,7 +30,7 @@ public class Author {
         this.name = name;
     }
 
-    int getAge() {
+    public int getAge() {
         return age;
     }
 
@@ -45,20 +43,4 @@ public class Author {
         return "id: " + id + ", Imię i nazwisko " + name + ", Wiek: " + age + "\n";
     }
 
-    public static Author addNewAuthor(int id) {
-        Author newAuthor = new Author();
-        Scanner in = new Scanner(System.in);
-
-        System.out.println("Wprowadź Imię i nazwisko nowego autora: \n");
-        String name = in.nextLine();
-        newAuthor.setName(name);
-
-        System.out.println("Wprowadź wiek nowego autora: \n");
-        int age = in.nextInt();
-        newAuthor.setAge(age);
-
-        newAuthor.setId(id++);
-
-        return newAuthor;
-    }
 }

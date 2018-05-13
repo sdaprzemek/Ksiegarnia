@@ -1,6 +1,6 @@
 package com.designpatterns.calculator;
 
-public class CalculatorFactory {
+class CalculatorFactory {
 
 
     public Calculator getCalculator (int calculatorType) {

@@ -1,11 +1,16 @@
 package com.programowanie2.ksiegarnia.author;
 
+import com.programowanie2.ksiegarnia.book.Book;
+import com.programowanie2.ksiegarnia.book.BooksData;
+
 import java.util.List;
 import java.util.Scanner;
 
 public class AuthorsFunctions {
 
-    public List<Author> changeAuthorAge(List<Author> authors) {
+    public List<Author> changeAuthorAge() {
+        List<Author> authors = AuthorsData.getInstance().getAllAuthors();
+
         System.out.println("Wprowadź id autora, któremu chcesz zmienić wiek: ");
         Scanner in = new Scanner(System.in);
         int id = in.nextInt();
@@ -33,8 +38,29 @@ public class AuthorsFunctions {
         int age = in.nextInt();
         newAuthor.setAge(age);
 
-        newAuthor.setId(id++);
+        newAuthor.setId(++id);
 
         return newAuthor;
+    }
+
+    public static void printBooksForGivenAuthor() {
+        List<Book> books = BooksData.getInstance().getAllBooks();
+        List<Author> authors = AuthorsData.getInstance().getAllAuthors();
+        Author author;
+        int id;
+
+        System.out.println("Podaj id autora, dla którego chcesz wyświetlić wszystkie książki: ");
+        Scanner in = new Scanner(System.in);
+        id = in.nextInt();
+
+        author = authors.stream().filter(a -> a.getId() == id).findFirst().get();
+
+        System.out.println("Autor: " + authors.get(id).getName());
+        System.out.println("Lista książek: ");
+        for (Book book : books) {
+            if (book.getAuthors().contains(author)) {
+                System.out.println(book.getTitle());
+            }
+        }
     }
 }

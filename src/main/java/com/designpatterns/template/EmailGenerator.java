@@ -3,7 +3,7 @@ package com.designpatterns.template;
 import java.util.Collections;
 import java.util.List;
 
-public abstract class EmailGenerator {
+abstract class EmailGenerator {
 
     List<String> to;
 
@@ -11,7 +11,7 @@ public abstract class EmailGenerator {
 
     String topic;
 
-    public abstract void setToList();
+    protected abstract void setToList();
 
     public abstract void setTopic();
 
@@ -23,7 +23,7 @@ public abstract class EmailGenerator {
 
     }
 
-    public void setCcList() {
+    void setCcList() {
         cc = Collections.emptyList();
 
     }

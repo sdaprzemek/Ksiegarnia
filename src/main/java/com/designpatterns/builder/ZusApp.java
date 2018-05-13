@@ -2,7 +2,7 @@ package com.designpatterns.builder;
 
 import com.designpatterns.builder.ZusForm.ZusFormBuilder;
 
-public class ZusApp {
+class ZusApp {
 
     public static void main(String[] args) {
         ZusForm zusForm = ZusFormBuilder.builder()

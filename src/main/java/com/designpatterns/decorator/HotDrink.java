@@ -1,6 +1,6 @@
 package com.designpatterns.decorator;
 
-public interface HotDrink {
+interface HotDrink {
 
 
     void prepare();

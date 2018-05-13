@@ -1,6 +1,6 @@
 package com.designpatterns.facade;
 
-public class SendSMSToDriverService {
+class SendSMSToDriverService {
 
 
     public void sendSMSToDriver() {

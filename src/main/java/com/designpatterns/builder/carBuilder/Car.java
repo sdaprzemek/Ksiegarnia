@@ -4,23 +4,23 @@ import java.util.List;
 
 public class Car {
 
-    String company;
+    private String company;
 
-    String model;
+    private String model;
 
-    Double engineSize;
+    private Double engineSize;
 
-    int year;
+    private int year;
 
-    long millage;
+    private long millage;
 
-    String countryOfOrigin;
+    private String countryOfOrigin;
 
-    List<String> additionalMaterials;
+    private List<String> additionalMaterials;
 
-    Enum engineType;
+    private Enum engineType;
 
-    public Car(String company, String model, Double engineSize, int year, long millage, String countryOfOrigin, List <String> additionalMaterials, Enum engineType) {
+    private Car(String company, String model, Double engineSize, int year, long millage, String countryOfOrigin, List <String> additionalMaterials, Enum engineType) {
         this.company = company;
         this.model = model;
         this.engineSize = engineSize;

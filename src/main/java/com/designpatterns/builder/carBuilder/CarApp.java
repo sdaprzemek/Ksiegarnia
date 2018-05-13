@@ -6,7 +6,7 @@ import static com.designpatterns.builder.carBuilder.EngineType.DIESEL;
 import static com.designpatterns.builder.carBuilder.EngineType.GAS;
 import static com.designpatterns.builder.carBuilder.EngineType.PETROL;
 
-public class CarApp {
+class CarApp {
 
     public static void main(String[] args) {
         Car car1 = Car.CarBuilder.builder()

@@ -2,7 +2,7 @@ package com.designpatterns.template;
 
 import java.util.Scanner;
 
-public class EmailApp {
+class EmailApp {
 
     public static void main(String[] args) {
 

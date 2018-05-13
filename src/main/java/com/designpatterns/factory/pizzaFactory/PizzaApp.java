@@ -2,7 +2,7 @@ package com.designpatterns.factory.pizzaFactory;
 
 import java.util.Scanner;
 
-public class PizzaApp {
+class PizzaApp {
 
     public static void main(String[] args) {
         PizzaFactory pizzaFactory = PizzaFactory.getInstance();
@@ -14,7 +14,7 @@ public class PizzaApp {
         System.out.println("4. Double Chees");
         System.out.println("5. Vege");
         Scanner in = new Scanner(System.in);
-        Pizza pizza = pizzaFactory.createPizza(in.nextInt()); //tworzymy obiekt pizza w PizzaFactory z podanym in
+        Pizza pizza = pizzaFactory.createPizza(in.nextInt());
         pizza.showIngredients();
 
     }

@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Builder
 @Getter
 @ToString
-public class Project {
+class Project {
 
     private String name;
 
